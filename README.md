@@ -1,5 +1,5 @@
 A classe ProdutoService é uma classe a implementação que contém a lógica de negócio relacionado ao produto. Contém os métodos: 
-    cadastrarProduto método que lê do teclado o nome do produto
+	cadastrarProduto método que lê do teclado o nome do produto
     cadastrarPeca método que lê do teclado o nome da peça, q sua quantidade. Caso a peça possua mais componentes e realizada uma chamada recursiva para cadastrar os componentes da peça e o valor da peça e calculado utilizando o valor de cada peça que é componente da peça multiplicando pela quantidade de cada peça que é componente da peça e caso a peça não possua componentes é lido do teclado o valor da peça
     calcularCustoTotal método que calcula o custoTotal do produto. Caso a arvore só possua um nó o custo total é o valor armazenado neste nó.  Caso contrário o custo total do produto é calculado através do somatório dos valores dos nos internos já previamente calculados multiplicando pela quantidade
     possuiComponentes método que lê do teclado se a peça possui ou não componentes
